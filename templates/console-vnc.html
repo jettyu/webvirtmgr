@@ -179,7 +179,8 @@
         document.title = unescape(WebUtil.getQueryVar('title', 'noVNC'));
         // By default, use the host and port of server that served this file
         host = '{{ ws_host }}';
-        port = '{{ ws_port }}';
+//        port = '{{ ws_port }}';
+        port = '80';
         password = '{{ console_passwd }}';
         path = '/web_console';
 
